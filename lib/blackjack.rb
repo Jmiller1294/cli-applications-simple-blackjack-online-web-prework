@@ -24,7 +24,7 @@ end
 
 def initial_round
 sum = deal_card + deal_card
-  puts sum
+  p sum
 end
 
 
