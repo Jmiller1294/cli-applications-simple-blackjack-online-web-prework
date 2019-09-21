@@ -24,7 +24,7 @@ end
 
 def initial_round
 while initial_round do
-  deal_card + deal_card
+ display_card_total deal_card + deal_card
 puts 
 end
 display_card_total
