@@ -23,7 +23,7 @@ def end_game(card_total)
 end
 
 def initial_round()
-puts display_card_total
+print display_card_total
 end
 
 
