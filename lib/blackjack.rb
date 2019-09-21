@@ -24,7 +24,7 @@ end
 
 def initial_round
 card_total = deal_card + deal_card
-puts 
+puts "#{display_card_total}"
 end
 
 
