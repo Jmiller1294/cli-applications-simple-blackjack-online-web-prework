@@ -23,8 +23,11 @@ def end_game(card_total)
 end
 
 def initial_round
-deal_card + deal_card 
-puts display_card_total(card_total)
+while initial_round do
+  deal_card + deal_card
+puts display_card_total
+end
+display_card_total
 
 
 end
