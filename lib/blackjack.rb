@@ -24,7 +24,7 @@ end
 
 def initial_round
 if card_total = deal_card + deal_card
-puts card_total
+ card_total
 end
 
 end
